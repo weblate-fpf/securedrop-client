@@ -2628,30 +2628,6 @@ def test_ConversationView_on_reply_sent_does_not_add_message_intended_for_differ
     assert not cv.add_reply.called
 
 
-def test_ConversationView_add_reply_from_reply_box(mocker):
-    """
-    Adding a reply from reply box results in a new ReplyWidget added to the layout.
-    """
-    source = factory.Source()
-    reply_ready = mocker.MagicMock()
-    reply_succeeded = mocker.MagicMock()
-    reply_failed = mocker.MagicMock()
-    controller = mocker.MagicMock(
-        reply_ready=reply_ready, reply_succeeded=reply_succeeded, reply_failed=reply_failed)
-    cv = ConversationView(source, controller)
-    cv.conversation_layout = mocker.MagicMock()
-    reply_widget_res = mocker.MagicMock()
-    reply_widget = mocker.patch(
-        'securedrop_client.gui.widgets.ReplyWidget', return_value=reply_widget_res)
-
-    cv.add_reply_from_reply_box('abc123', 'test message')
-
-    reply_widget.assert_called_once_with(
-        'abc123', 'test message', 'PENDING', reply_ready, reply_succeeded, reply_failed, 0)
-    cv.conversation_layout.insertWidget.assert_called_once_with(
-        0, reply_widget_res, alignment=Qt.AlignRight)
-
-
 def test_ConversationView_add_reply(mocker, session, source):
     """
     Adding a reply from a source results in a new ReplyWidget added to the layout.
