@@ -1,311 +1,312 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Translations template for SecureDrop Client.
+# Copyright (C) 2021 Freedom of the Press Foundation
+# This file is distributed under the same license as the SecureDrop Client project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-20 15:24-0700\n"
+"Project-Id-Version: SecureDrop Client 0.4.1\n"
+"Report-Msgid-Bugs-To: securedrop@freedom.press\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: securedrop_client/gui/main.py:61
-msgid "SecureDrop Client {}"
+msgid "{application_name} is already running"
 msgstr ""
 
-#: securedrop_client/gui/main.py:164
-msgid "Last Refresh: {}"
-msgstr ""
-
-#: securedrop_client/gui/main.py:166
-msgid "Last Refresh: never"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:489 securedrop_client/gui/widgets.py:494
-msgid "{}"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:505
-msgid "SIGN OUT"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:529 securedrop_client/gui/widgets.py:1449
-#: securedrop_client/gui/widgets.py:1681
-msgid "SIGN IN"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:701
-msgid "Nothing to see just yet!"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:705
-msgid ""
-"Source submissions will be listed to the left, once downloaded and decrypted."
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:709
-msgid ""
-"This is where you will read messages, reply to sources, and work with files."
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:722
-msgid "Select a source from the list, to:"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:732
-msgid "Read a conversation"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:741
-msgid "View or retrieve files"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:750
-msgid "Send a response"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:1437
-msgid "USE OFFLINE"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:1595
-msgid "Username"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:1598 securedrop_client/gui/widgets.py:2788
-msgid "Passphrase"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:1601
-msgid "Two-Factor Code"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:1629
-msgid "SecureDrop Client v"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:1701
-msgid ""
-"That username won't work.\n"
-"It should be at least 3 characters long."
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:1710
-msgid ""
-"That passphrase won't work.\n"
-"It should be between 14 and 128 characters long."
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:1722
-msgid ""
-"That two-factor code won't work.\n"
-"It should only contain numerals."
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:1725
-msgid "SIGNING IN"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:1729
-msgid "Please enter a username, passphrase and two-factor code."
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2220
-msgid " DOWNLOAD"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2228
-msgid "EXPORT"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2233
-msgid "PRINT"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2328
-msgid "DOWNLOAD"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2415
-msgid " DOWNLOADING "
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2497
-msgid "CANCEL"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2500 securedrop_client/gui/widgets.py:2567
-msgid "CONTINUE"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2606
-msgid "Preparing to print:<br /><span style=\"font-weight:normal\">{}</span>"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2611
-msgid "Ready to print:<br /><span style=\"font-weight:normal\">{}</span>"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2615
-msgid "Connect USB printer"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2616
-msgid "Printing failed"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2618
-msgid ""
-"<h2>Managing printout risks</h2><b>QR codes and web addresses</b><br />Never "
-"type in and open web addresses or scan QR codes contained in printed "
-"documents without taking security precautions. If you are unsure how to "
-"manage this risk, please contact your administrator.<br /><br /><b>Printer "
-"dots</b><br />Any part of a printed page may contain identifying information "
-"invisible to the naked eye, such as printer dots. Please carefully consider "
-"this risk when working with or publishing scanned printouts."
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2631
-msgid "Please connect your printer to a USB port."
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2632 securedrop_client/gui/widgets.py:2772
-msgid "See your administrator for help."
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2735
-msgid "Preparing to export:<br /><span style=\"font-weight:normal\">{}</span>"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2740
-msgid "Ready to export:<br /><span style=\"font-weight:normal\">{}</span>"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2744
-msgid "Insert encrypted USB drive"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2745
-msgid "Enter passphrase for USB drive"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2746
-msgid "Export successful"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2747
-msgid "Export failed"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2749
-msgid ""
-"<h2>Understand the risks before exporting files</h2><b>Malware</b><br />This "
-"workstation lets you open files securely. If you open files on another "
-"computer, any embedded malware may spread to your computer or network. If "
-"you are unsure how to manage this risk, please print the file, or contact "
-"your administrator.<br /><br /><b>Anonymity</b><br />Files submitted by "
-"sources may contain information or hidden metadata that identifies who they "
-"are. To protect your sources, please consider redacting files before working "
-"with them on network-connected computers."
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2763
-msgid "Exporting: {}"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2765
-msgid ""
-"Please insert one of the export drives provisioned specifically for the "
-"SecureDrop Workstation."
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2769
-msgid ""
-"Either the drive is not encrypted or there is something else wrong with it."
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2771
-msgid "The passphrase provided did not work. Please try again."
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2774
-msgid "The CONTINUE button will be disabled until the Export VM is ready"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:2777
-msgid ""
-"Remember to be careful when working with files outside of your Workstation "
-"machine."
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:3516
-msgid "Compose a reply to "
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:3535
-msgid " from server to enable replies"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:3546
-msgid "Sign in"
-msgstr ""
-
-#: securedrop_client/gui/widgets.py:3592
-msgid "Delete source account"
-msgstr ""
-
-#: securedrop_client/logic.py:427 securedrop_client/logic.py:621
 msgid "The SecureDrop server cannot be reached. Trying to reconnect..."
 msgstr ""
 
-#: securedrop_client/logic.py:508
 msgid ""
 "Could not reach the SecureDrop server. Please check your \n"
 "Internet and Tor connection and try again."
 msgstr ""
 
-#: securedrop_client/logic.py:513
 msgid ""
 "Those credentials didn't work. Please try again, and \n"
 "make sure to use a new two-factor code."
 msgstr ""
 
-#: securedrop_client/logic.py:517
 msgid "That didn't work. Please check everything and try again."
 msgstr ""
 
-#: securedrop_client/logic.py:543
 msgid "You must sign in to perform this action."
 msgstr ""
 
-#: securedrop_client/logic.py:618
 msgid "Your session expired. Please log in again."
 msgstr ""
 
-#: securedrop_client/logic.py:695
 msgid "Failed to update star."
 msgstr ""
 
-#: securedrop_client/logic.py:772
 msgid "Retrieving new messages"
 msgstr ""
 
-#: securedrop_client/logic.py:847
 msgid "File does not exist in the data directory. Please try re-downloading."
 msgstr ""
 
-#: securedrop_client/logic.py:971
 msgid "The file download failed. Please try again."
 msgstr ""
 
-#: securedrop_client/logic.py:981
+msgid "Failed to delete conversation at server"
+msgstr ""
+
 msgid "Failed to delete source at server"
 msgstr ""
+
+msgid "SecureDrop Client {}"
+msgstr ""
+
+msgid "Last Refresh: {}"
+msgstr ""
+
+msgid "Last Refresh: never"
+msgstr ""
+
+msgid "{}"
+msgstr ""
+
+msgid "SIGN OUT"
+msgstr ""
+
+msgid "SIGN IN"
+msgstr ""
+
+msgid "Nothing to see just yet!"
+msgstr ""
+
+msgid "Source submissions will be listed to the left, once downloaded and decrypted."
+msgstr ""
+
+msgid "This is where you will read messages, reply to sources, and work with files."
+msgstr ""
+
+msgid "Select a source from the list, to:"
+msgstr ""
+
+msgid "Read a conversation"
+msgstr ""
+
+msgid "View or retrieve files"
+msgstr ""
+
+msgid "Send a response"
+msgstr ""
+
+msgid "Deleting files and messages..."
+msgstr ""
+
+msgid "Deleting source account..."
+msgstr ""
+
+msgid "— All files and messages deleted for this source —"
+msgstr ""
+
+msgid "USE OFFLINE"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Passphrase"
+msgstr ""
+
+msgid "Two-Factor Code"
+msgstr ""
+
+msgid "SecureDrop Client v{}"
+msgstr ""
+
+msgid ""
+"That username won't work.\n"
+"It should be at least 3 characters long."
+msgstr ""
+
+msgid ""
+"That passphrase won't work.\n"
+"It should be between 14 and 128 characters long."
+msgstr ""
+
+msgid ""
+"That two-factor code won't work.\n"
+"It should only contain numerals."
+msgstr ""
+
+msgid "SIGNING IN"
+msgstr ""
+
+msgid "Please enter a username, passphrase and two-factor code."
+msgstr ""
+
+msgid "Failed to send"
+msgstr ""
+
+msgid " DOWNLOAD"
+msgstr ""
+
+msgid "EXPORT"
+msgstr ""
+
+msgid "PRINT"
+msgstr ""
+
+msgid "ENCRYPTED FILE ON SERVER"
+msgstr ""
+
+msgid "DOWNLOAD"
+msgstr ""
+
+msgid " DOWNLOADING "
+msgstr ""
+
+msgid "CANCEL"
+msgstr ""
+
+msgid "CONTINUE"
+msgstr ""
+
+msgid "Preparing to print:<br /><span style=\"font-weight:normal\">{}</span>"
+msgstr ""
+
+msgid "Ready to print:<br /><span style=\"font-weight:normal\">{}</span>"
+msgstr ""
+
+msgid "Connect USB printer"
+msgstr ""
+
+msgid "Printing failed"
+msgstr ""
+
+msgid "<h2>Managing printout risks</h2><b>QR codes and web addresses</b><br />Never type in and open web addresses or scan QR codes contained in printed documents without taking security precautions. If you are unsure how to manage this risk, please contact your administrator.<br /><br /><b>Printer dots</b><br />Any part of a printed page may contain identifying information invisible to the naked eye, such as printer dots. Please carefully consider this risk when working with or publishing scanned printouts."
+msgstr ""
+
+msgid "Please connect your printer to a USB port."
+msgstr ""
+
+msgid "See your administrator for help."
+msgstr ""
+
+msgid "DONE"
+msgstr ""
+
+msgid "Preparing to export:<br /><span style=\"font-weight:normal\">{}</span>"
+msgstr ""
+
+msgid "Ready to export:<br /><span style=\"font-weight:normal\">{}</span>"
+msgstr ""
+
+msgid "Insert encrypted USB drive"
+msgstr ""
+
+msgid "Enter passphrase for USB drive"
+msgstr ""
+
+msgid "Export successful"
+msgstr ""
+
+msgid "Export failed"
+msgstr ""
+
+msgid "<h2>Understand the risks before exporting files</h2><b>Malware</b><br />This workstation lets you open files securely. If you open files on another computer, any embedded malware may spread to your computer or network. If you are unsure how to manage this risk, please print the file, or contact your administrator.<br /><br /><b>Anonymity</b><br />Files submitted by sources may contain information or hidden metadata that identifies who they are. To protect your sources, please consider redacting files before working with them on network-connected computers."
+msgstr ""
+
+msgid "Exporting: {}"
+msgstr ""
+
+msgid "Please insert one of the export drives provisioned specifically for the SecureDrop Workstation."
+msgstr ""
+
+msgid "Either the drive is not encrypted or there is something else wrong with it."
+msgstr ""
+
+msgid "The passphrase provided did not work. Please try again."
+msgstr ""
+
+msgid "The CONTINUE button will be disabled until the Export VM is ready"
+msgstr ""
+
+msgid "Remember to be careful when working with files outside of your Workstation machine."
+msgstr ""
+
+msgid "SUBMIT"
+msgstr ""
+
+msgid "YES, DELETE ENTIRE SOURCE ACCOUNT"
+msgstr ""
+
+msgid "Are you sure this is what you want?"
+msgstr ""
+
+msgid "When the entire account for a source is deleted:"
+msgstr ""
+
+msgid "The source will not be able to log in with their codename again."
+msgstr ""
+
+msgid "Your organization will not be able to send them replies."
+msgstr ""
+
+msgid "All files and messages from that source will also be destroyed."
+msgstr ""
+
+msgid "YES, DELETE FILES AND MESSAGES"
+msgstr ""
+
+msgid "You would like to delete {files_to_delete}, {replies_to_delete}, {messages_to_delete} from the source account for {source}?"
+msgstr ""
+
+msgid "Preserving the account will retain its metadata, and the ability for {source} to log in to your SecureDrop again."
+msgstr ""
+
+msgid "one file"
+msgid_plural "{file_count} files"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "one reply"
+msgid_plural "{reply_count} replies"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "one message"
+msgid_plural "{message_count} messages"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Earlier files and messages deleted."
+msgstr ""
+
+msgid ""
+"Files and messages deleted\n"
+" for this source"
+msgstr ""
+
+msgid "Compose a reply to "
+msgstr ""
+
+msgid "Awaiting encryption key"
+msgstr ""
+
+msgid " from server to enable replies"
+msgstr ""
+
+msgid "Sign in"
+msgstr ""
+
+msgid " to compose or send a reply"
+msgstr ""
+
+msgid "Entire source account"
+msgstr ""
+
+msgid "Files and messages"
+msgstr ""
+
+msgid "DELETE"
+msgstr ""
+
